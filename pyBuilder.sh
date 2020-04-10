@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # generate an empty python project framework
-# usage: pyBuild [-w workspace direction] [project name]
+# usage: pyBuild [-w workspace] [project name]
 usage(){
     echo "Usage:"
-    echo "pyBuild [-w workspace direction] [project name]"
+    echo "pyBuild [-w workspace] [project name]"
     exit -1
 }
 ws=.
