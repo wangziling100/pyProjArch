@@ -7,7 +7,7 @@ usage(){
     echo "pyBuild [-w workspace direction] [project name]"
     exit -1
 }
-
+ws=.
 args="`getopt -u -q -o "hw:" -l "help" -- "$@"`"
 [ $? -ne 0 ] && usage
 
