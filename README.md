@@ -8,21 +8,21 @@ pyBuild [-w your workspace] [project name]
 ## Directory structure
 project_name  
 |-- bin  
-|    |  
-|    -- your_exec_file  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;-- your_exec_file  
 |-- docs  
-|    |  
-|    -- abc.rst  
-|    |  
-|    -- conf.py  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;-- abc.rst  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;-- conf.py  
 |-- init.py  
 |-- main.py  
 |-- README.md  
 |-- requirements.txt  
 |-- setup.py  
 |-- tests  
-|    |  
-|    -- init.py  
-|    |  
-|    -- test_main.py  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;-- init.py  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;-- test_main.py  
 |-- your_project_directory  
