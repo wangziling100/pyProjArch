@@ -40,4 +40,4 @@ done
 cd $ws
 mkdir $proj_name
 cd $proj_name
-mkdir -p bin/${proj_name}_your_exec_file && mkdir docs && mkdir $proj_name && mkdir tests && touch README.md && touch requirements.txt && touch setup.py && touch docs/abc.rst && touch docs/conf.py && touch main.py && touch init.py && touch tests/test_main.py && touch tests/init.py
+mkdir -p bin/${proj_name}_your_exec_file && mkdir docs && mkdir $proj_name && mkdir tests && touch README.md && touch requirements.txt && touch setup.py && touch docs/abc.rst && touch docs/conf.py && touch $proj_name/main.py && touch $proj_name/init.py && touch tests/test_main.py && touch tests/init.py
